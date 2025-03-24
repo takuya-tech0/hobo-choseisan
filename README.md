@@ -33,6 +33,7 @@ src/
 │   ├── SearchContent.tsx   # 検索機能と結果表示
 │   └── UserSearch.tsx      # ユーザー検索機能
 └── page.tsx            # アプリのルートページ
+```
 
 ## コンポーネント詳細
 
