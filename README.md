@@ -74,24 +74,21 @@ src/
 ### 環境変数
 
 `.env.local`ファイルを作成し、以下の変数を設定してください：
-NEXT_PUBLIC_AZURE_CLIENT_ID=your_client_id
-NEXT_PUBLIC_AZURE_TENANT_ID=your_tenant_id
-コピー
-### インストールと実行
+- NEXT_PUBLIC_AZURE_CLIENT_ID=your_client_id
+- NEXT_PUBLIC_AZURE_TENANT_ID=your_tenant_id
 
 ### 必要なAPI権限
 Microsoft Azure ADアプリケーション登録で以下の権限を設定してください：
 
-User.Read
-User.ReadBasic.All
-Calendars.ReadWrite
-Calendars.Read.Shared
+- User.Read
+- User.ReadBasic.All
+- Calendars.ReadWrite
+- Calendars.Read.Shared
 
 ### 技術スタック
 
-Next.js 14 (App Router)
-TypeScript
-Tailwind CSS
-shadcn/ui
-Microsoft Authentication Library (MSAL)
-Microsoft Graph API
+- Next.js 14 (App Router)
+- TypeScript
+- Microsoft Graph API
+- shadcn/ui
+- Microsoft Authentication Library (MSAL)
