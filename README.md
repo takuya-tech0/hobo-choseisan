@@ -16,6 +16,7 @@ Microsoft 365と連携した会議スケジュール調整アプリケーショ�
 - Teams会議リンク付き会議依頼の送信
 
 ## アプリケーション構造
+```bash
 src/
 └── app/
 ├── auth/
@@ -77,14 +78,7 @@ NEXT_PUBLIC_AZURE_TENANT_ID=your_tenant_id
 コピー
 ### インストールと実行
 
-```bash
-# 依存関係のインストール
-npm install
-
-# 開発サーバーの起動
-npm run dev
-アプリケーションは http://localhost:3000 で実行されます。
-必要なAPI権限
+### 必要なAPI権限
 Microsoft Azure ADアプリケーション登録で以下の権限を設定してください：
 
 User.Read
@@ -92,7 +86,7 @@ User.ReadBasic.All
 Calendars.ReadWrite
 Calendars.Read.Shared
 
-技術スタック
+### 技術スタック
 
 Next.js 14 (App Router)
 TypeScript
